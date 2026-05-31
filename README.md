@@ -5,8 +5,8 @@
 </p>
 
 <h3 align="center">
-  A passionate <span style="color:#0073e6;">Data Scientist</span> and 
-  <span style="color:#f39c12;">Machine Learning Engineer</span> from Kashmir, specializing in data analysis, machine learning, and data visualization.
+  A passionate <span style="color:#0073e6;">AI</span> and 
+  <span style="color:#f39c12;">Machine Learning Engineer</span> from Hyderabad, specializing in data analysis, machine learning, and data visualization.
 </h3>
 
 ---
