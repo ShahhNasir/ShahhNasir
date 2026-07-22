@@ -1,0 +1,40 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI OS logo">
+  <title>AI OS</title>
+  <defs>
+    <linearGradient id="aiosGrad" x1="64" y1="64" x2="448" y2="448" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EAFDFF"/>
+      <stop offset="45%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- orbit ring -->
+  <circle cx="256" cy="256" r="184" stroke="url(#aiosGrad)" stroke-width="3" opacity="0.35" fill="none"/>
+
+  <!-- connective lattice: three nodes forming a stable triangular "OS" orbit around a core "AI" node -->
+  <g filter="url(#glow)">
+    <path d="M256 92 L392 322 L120 322 Z" stroke="url(#aiosGrad)" stroke-width="6" stroke-linejoin="round" fill="none"/>
+    <path d="M256 92 L256 256 M392 322 L256 256 M120 322 L256 256" stroke="url(#aiosGrad)" stroke-width="4" opacity="0.7"/>
+  </g>
+
+  <!-- outer nodes -->
+  <circle cx="256" cy="92" r="22" fill="url(#coreGrad)" filter="url(#glow)"/>
+  <circle cx="392" cy="322" r="22" fill="url(#coreGrad)" filter="url(#glow)"/>
+  <circle cx="120" cy="322" r="22" fill="url(#coreGrad)" filter="url(#glow)"/>
+
+  <!-- core node -->
+  <circle cx="256" cy="256" r="34" fill="url(#coreGrad)" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="34" fill="none" stroke="#0B1120" stroke-width="3"/>
+</svg>

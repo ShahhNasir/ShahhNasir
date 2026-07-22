@@ -1,0 +1,24 @@
+<svg width="1200" height="6" viewBox="0 0 1200 6" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="section divider">
+  <defs>
+    <linearGradient id="divGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="85%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#0B1120" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="shimmerMask">
+      <rect x="-300" y="0" width="300" height="6" fill="url(#shimmer)">
+        <animate attributeName="x" from="-300" to="1200" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
+    </mask>
+  </defs>
+
+  <rect x="0" y="2" width="1200" height="2" rx="1" fill="url(#divGrad)"/>
+  <rect x="0" y="2" width="1200" height="2" rx="1" fill="#ffffff" mask="url(#shimmerMask)"/>
+</svg>

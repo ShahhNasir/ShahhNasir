@@ -1,0 +1,177 @@
+<svg width="1240" height="800" viewBox="0 0 1240 800" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Segoe UI',monospace" role="img" aria-label="AI OS system architecture diagram">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1240" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0F1B2E"/>
+    </linearGradient>
+    <linearGradient id="edgeGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="nodeStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#22D3EE"/>
+    </marker>
+  </defs>
+
+  <rect width="1240" height="800" fill="url(#bgGrad)"/>
+  <rect x="0.5" y="0.5" width="1239" height="799" rx="24" fill="none" stroke="#1E293B"/>
+
+  <text x="620" y="52" text-anchor="middle" fill="#E5E7EB" font-size="24" font-weight="700" letter-spacing="1">AI OS — System Architecture</text>
+  <text x="620" y="76" text-anchor="middle" fill="#64748B" font-size="13">production-grade applied AI platform</text>
+
+  <!-- ===== EDGES (drawn first, under nodes) ===== -->
+  <g stroke="url(#edgeGrad)" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <path id="e1" d="M215,150 H345"/>
+    <path id="e2" d="M535,150 H615"/>
+    <path id="e3" d="M905,150 H985"/>
+    <path d="M760,180 V228"/>
+    <path d="M760,270 V300 H630 V330"/>
+    <path d="M760,270 V300 H760 V330"/>
+    <path d="M760,270 V300 H890 V330"/>
+    <path d="M630,372 H890"/>
+    <path d="M440,150 V240 H340 V372"/>
+    <path d="M440,150 V240 H500 V372"/>
+    <path d="M760,228 V180"/>
+    <path d="M1060,180 V330 H970 V372"/>
+    <path d="M1060,180 V420 H1080 V450"/>
+    <path d="M760,414 V450"/>
+    <path d="M340,414 V520 H600 V560"/>
+    <path d="M500,414 V520 H750 V560"/>
+    <path d="M760,450 V520 H900 V560"/>
+    <path d="M1080,492 V520 H900 V560"/>
+    <path d="M760,602 V636"/>
+  </g>
+
+  <!-- animated data-flow pulses along the main spine -->
+  <g stroke="#67E8F9" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M215,150 H1060" opacity="0.55" stroke-dasharray="6 14">
+      <animate attributeName="stroke-dashoffset" from="0" to="-200" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M760,180 V636" opacity="0.55" stroke-dasharray="6 14">
+      <animate attributeName="stroke-dashoffset" from="0" to="-200" dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- ===== TIER LABELS ===== -->
+  <g fill="#475569" font-size="11" letter-spacing="2">
+    <text x="40" y="118">CLIENT</text>
+    <text x="40" y="250">AGENTS</text>
+    <text x="40" y="360">KNOWLEDGE</text>
+    <text x="40" y="500">DATA / OBSERVABILITY</text>
+    <text x="40" y="630">INFRASTRUCTURE</text>
+  </g>
+
+  <!-- ===== NODE MACRO (manually inlined) ===== -->
+  <!-- Frontend -->
+  <g filter="url(#nodeGlow)">
+    <rect x="60" y="120" width="155" height="60" rx="14" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+  </g>
+  <text x="137" y="145" text-anchor="middle" fill="#E5E7EB" font-size="13" font-weight="700">Frontend</text>
+  <text x="137" y="162" text-anchor="middle" fill="#64748B" font-size="10">Next.js · React</text>
+
+  <!-- FastAPI Gateway -->
+  <g filter="url(#nodeGlow)">
+    <rect x="345" y="120" width="190" height="60" rx="14" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+  </g>
+  <text x="440" y="145" text-anchor="middle" fill="#E5E7EB" font-size="13" font-weight="700">FastAPI Gateway</text>
+  <text x="440" y="162" text-anchor="middle" fill="#64748B" font-size="10">auth · routing · streaming</text>
+
+  <!-- AI Agent Hub -->
+  <g filter="url(#nodeGlow)">
+    <rect x="615" y="112" width="290" height="76" rx="16" fill="#0E1A2B" stroke="#22D3EE" stroke-width="2"/>
+  </g>
+  <text x="760" y="140" text-anchor="middle" fill="#F8FAFC" font-size="14" font-weight="700">AI Agent Hub</text>
+  <text x="760" y="158" text-anchor="middle" fill="#67E8F9" font-size="10">orchestration · routing · tool-use</text>
+
+  <!-- LLM Providers -->
+  <g filter="url(#nodeGlow)">
+    <rect x="985" y="120" width="180" height="60" rx="14" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+  </g>
+  <text x="1075" y="145" text-anchor="middle" fill="#E5E7EB" font-size="13" font-weight="700">LLM Providers</text>
+  <text x="1075" y="162" text-anchor="middle" fill="#64748B" font-size="10">GPT · Claude · OSS</text>
+
+  <!-- sub agents -->
+  <g filter="url(#nodeGlow)">
+    <rect x="555" y="228" width="150" height="52" rx="12" fill="#111827" stroke="#8B5CF6" stroke-width="1.5"/>
+    <rect x="685" y="228" width="150" height="52" rx="12" fill="#111827" stroke="#8B5CF6" stroke-width="1.5"/>
+    <rect x="815" y="228" width="150" height="52" rx="12" fill="#111827" stroke="#8B5CF6" stroke-width="1.5"/>
+  </g>
+  <text x="630" y="249" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Planner</text>
+  <text x="630" y="265" text-anchor="middle" fill="#64748B" font-size="9">task decomposition</text>
+  <text x="760" y="249" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Coder Agent</text>
+  <text x="760" y="265" text-anchor="middle" fill="#64748B" font-size="9">codegen · execution</text>
+  <text x="890" y="249" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Research Agent</text>
+  <text x="890" y="265" text-anchor="middle" fill="#64748B" font-size="9">retrieval · synthesis</text>
+
+  <!-- knowledge tier: Memory / RAG / Vector DB -->
+  <g filter="url(#nodeGlow)">
+    <rect x="555" y="330" width="150" height="52" rx="12" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+    <rect x="685" y="330" width="150" height="52" rx="12" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+    <rect x="815" y="330" width="150" height="52" rx="12" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+  </g>
+  <text x="630" y="351" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Memory</text>
+  <text x="630" y="367" text-anchor="middle" fill="#64748B" font-size="9">short + long term</text>
+  <text x="760" y="351" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">RAG Pipeline</text>
+  <text x="760" y="367" text-anchor="middle" fill="#64748B" font-size="9">chunk · embed · rerank</text>
+  <text x="890" y="351" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Vector Database</text>
+  <text x="890" y="367" text-anchor="middle" fill="#64748B" font-size="9">similarity search</text>
+
+  <!-- data / observability tier -->
+  <g filter="url(#nodeGlow)">
+    <rect x="265" y="372" width="150" height="52" rx="12" fill="#111827" stroke="#3B82F6" stroke-width="1.5"/>
+    <rect x="425" y="372" width="150" height="52" rx="12" fill="#111827" stroke="#3B82F6" stroke-width="1.5"/>
+    <rect x="895" y="372" width="150" height="52" rx="12" fill="#111827" stroke="#3B82F6" stroke-width="1.5"/>
+    <rect x="1005" y="420" width="150" height="52" rx="12" fill="#111827" stroke="#3B82F6" stroke-width="1.5"/>
+  </g>
+  <text x="340" y="393" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">PostgreSQL</text>
+  <text x="340" y="409" text-anchor="middle" fill="#64748B" font-size="9">system of record</text>
+  <text x="500" y="393" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Redis</text>
+  <text x="500" y="409" text-anchor="middle" fill="#64748B" font-size="9">cache · queues</text>
+  <text x="970" y="393" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Kafka</text>
+  <text x="970" y="409" text-anchor="middle" fill="#64748B" font-size="9">event streaming</text>
+  <text x="1080" y="441" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Monitoring</text>
+  <text x="1080" y="457" text-anchor="middle" fill="#64748B" font-size="9">traces · metrics</text>
+
+  <g filter="url(#nodeGlow)">
+    <rect x="825" y="372" width="60" height="0" opacity="0"/>
+  </g>
+
+  <!-- evaluation node -->
+  <g filter="url(#nodeGlow)">
+    <rect x="685" y="450" width="150" height="52" rx="12" fill="#111827" stroke="#3B82F6" stroke-width="1.5"/>
+  </g>
+  <text x="760" y="471" text-anchor="middle" fill="#E5E7EB" font-size="12" font-weight="700">Evaluation</text>
+  <text x="760" y="487" text-anchor="middle" fill="#64748B" font-size="9">offline + online evals</text>
+
+  <!-- infrastructure tier: outer dashed cloud boundary -->
+  <rect x="250" y="560" width="800" height="140" rx="20" fill="#0A1424" stroke="#334155" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <text x="270" y="586" fill="#64748B" font-size="11" letter-spacing="2">CLOUD INFRASTRUCTURE</text>
+
+  <g filter="url(#nodeGlow)">
+    <rect x="330" y="605" width="170" height="60" rx="14" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+    <rect x="535" y="605" width="170" height="60" rx="14" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+    <rect x="740" y="605" width="170" height="60" rx="14" fill="#111827" stroke="url(#nodeStroke)" stroke-width="1.5"/>
+  </g>
+  <text x="415" y="631" text-anchor="middle" fill="#E5E7EB" font-size="13" font-weight="700">Docker</text>
+  <text x="415" y="648" text-anchor="middle" fill="#64748B" font-size="10">containerization</text>
+  <text x="620" y="631" text-anchor="middle" fill="#E5E7EB" font-size="13" font-weight="700">Kubernetes</text>
+  <text x="620" y="648" text-anchor="middle" fill="#64748B" font-size="10">orchestration · scaling</text>
+  <text x="825" y="631" text-anchor="middle" fill="#E5E7EB" font-size="13" font-weight="700">Cloud</text>
+  <text x="825" y="648" text-anchor="middle" fill="#64748B" font-size="10">AWS · GCP · Azure</text>
+
+  <!-- pulsing core dots on hub + llm to suggest "alive" system -->
+  <circle cx="905" cy="150" r="4" fill="#67E8F9">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="615" cy="150" r="4" fill="#67E8F9">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>

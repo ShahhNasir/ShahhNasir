@@ -1,0 +1,66 @@
+<svg width="1240" height="360" viewBox="0 0 1240 360" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Segoe UI',monospace" role="img" aria-label="AI OS product roadmap">
+  <defs>
+    <linearGradient id="rmBg" x1="0" y1="0" x2="1240" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#0F1B2E"/>
+    </linearGradient>
+    <linearGradient id="rmLine" x1="0" y1="0" x2="1240" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="33%" stop-color="#3B82F6"/>
+      <stop offset="66%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <filter id="rmGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1240" height="360" fill="url(#rmBg)"/>
+  <rect x="0.5" y="0.5" width="1239" height="359" rx="24" fill="none" stroke="#1E293B"/>
+
+  <text x="620" y="52" text-anchor="middle" fill="#E5E7EB" font-size="22" font-weight="700" letter-spacing="1">AI OS — Roadmap</text>
+  <text x="620" y="74" text-anchor="middle" fill="#64748B" font-size="12">2026 build plan</text>
+
+  <!-- spine -->
+  <line x1="120" y1="180" x2="1120" y2="180" stroke="url(#rmLine)" stroke-width="3" opacity="0.5"/>
+  <line x1="120" y1="180" x2="1120" y2="180" stroke="#67E8F9" stroke-width="3" stroke-dasharray="4 12" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-160" dur="3.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Q1 -->
+  <circle cx="200" cy="180" r="10" fill="#0B1120" stroke="#22D3EE" stroke-width="3" filter="url(#rmGlow)"/>
+  <circle cx="200" cy="180" r="4" fill="#22D3EE"/>
+  <text x="200" y="140" text-anchor="middle" fill="#22D3EE" font-size="13" font-weight="700">Q1</text>
+  <text x="200" y="222" text-anchor="middle" fill="#F1F5F9" font-size="14" font-weight="700">Foundation</text>
+  <text x="200" y="242" text-anchor="middle" fill="#64748B" font-size="10">Core API · Auth · Data layer</text>
+
+  <!-- Q2 -->
+  <circle cx="480" cy="180" r="10" fill="#0B1120" stroke="#3B82F6" stroke-width="3" filter="url(#rmGlow)"/>
+  <circle cx="480" cy="180" r="4" fill="#3B82F6"/>
+  <text x="480" y="140" text-anchor="middle" fill="#3B82F6" font-size="13" font-weight="700">Q2</text>
+  <text x="480" y="222" text-anchor="middle" fill="#F1F5F9" font-size="14" font-weight="700">AI Agents</text>
+  <text x="480" y="242" text-anchor="middle" fill="#64748B" font-size="10">Planner · Coder · Research agents</text>
+
+  <!-- Q3 -->
+  <circle cx="760" cy="180" r="10" fill="#0B1120" stroke="#8B5CF6" stroke-width="3" filter="url(#rmGlow)"/>
+  <circle cx="760" cy="180" r="4" fill="#8B5CF6"/>
+  <text x="760" y="140" text-anchor="middle" fill="#8B5CF6" font-size="13" font-weight="700">Q3</text>
+  <text x="760" y="222" text-anchor="middle" fill="#F1F5F9" font-size="14" font-weight="700">Distributed AI</text>
+  <text x="760" y="242" text-anchor="middle" fill="#64748B" font-size="10">Kafka · scaling · multi-agent orchestration</text>
+
+  <!-- Q4 -->
+  <circle cx="1040" cy="180" r="10" fill="#0B1120" stroke="#A855F7" stroke-width="3" filter="url(#rmGlow)"/>
+  <circle cx="1040" cy="180" r="4" fill="#A855F7"/>
+  <text x="1040" y="140" text-anchor="middle" fill="#A855F7" font-size="13" font-weight="700">Q4</text>
+  <text x="1040" y="222" text-anchor="middle" fill="#F1F5F9" font-size="14" font-weight="700">Enterprise AI Platform</text>
+  <text x="1040" y="242" text-anchor="middle" fill="#64748B" font-size="10">SSO · governance · SLA-grade evals</text>
+
+  <!-- progress marker -->
+  <circle cx="480" cy="180" r="18" fill="none" stroke="#3B82F6" stroke-width="2" opacity="0.6">
+    <animate attributeName="r" values="14;22;14" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0;0.7" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="1120" y="300" text-anchor="end" fill="#475569" font-size="10">● in progress: Q2 — AI Agents</text>
+</svg>

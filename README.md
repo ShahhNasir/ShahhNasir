@@ -1,324 +1,194 @@
-````markdown
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0f172a,50:2563eb,100:06b6d4&text=Nasir%20Hussain&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Applied%20AI%20Engineer%20•%20LLM%20Engineer%20•%20Machine%20Learning%20Engineer&descAlignY=60"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:0B1120,35:1E3A8A,70:2563EB,100:06B6D4&text=NASIR%20HUSSAIN&fontSize=54&fontColor=F8FAFC&fontAlign=50&fontAlignY=36&animation=fadeIn&desc=Applied%20AI%20Engineer%20%E2%80%A2%20LLM%20Engineer%20%E2%80%A2%20Machine%20Learning%20Engineer&descAlignY=58&descAlign=50" width="100%"/>
 
-# 👋 Hi, I'm Nasir Hussain
+<br/>
 
-### Applied AI Engineer • LLM Engineer • Machine Learning Engineer
+<img src="assets/ai-os-logo.svg" width="72" height="72"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3500&pause=1200&color=22D3EE&center=true&vCenter=true&width=900&lines=Building+Production+AI+Systems;Large+Language+Models;AI+Agents+%7C+RAG+%7C+FastAPI;Cloud+Native+AI+Applications;Always+Learning.+Always+Building."/>
+<h3>AI OS — The Operating System for Artificial Intelligence</h3>
 
-<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1400&color=67E8F9&center=true&vCenter=true&width=760&lines=Designing+production-grade+AI+systems;LLMs+%C2%B7+AI+Agents+%C2%B7+RAG+%C2%B7+Distributed+Infrastructure;Shipping+one+flagship+platform%2C+not+fifty+demos." />
 
-<a href="mailto:nasirhussainshah174@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+<br/>
 
-<a href="https://www.linkedin.com/in/nasir-hussain-8b74673a0">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<a href="mailto:nasirhussainshah174@gmail.com"><img src="https://img.shields.io/badge/Email-0B1120?style=for-the-badge&logo=gmail&logoColor=22D3EE" /></a>
+<a href="https://www.linkedin.com/in/nasir-hussain-8b74673a0"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=3B82F6" /></a>
+<a href="https://github.com/ShahhNasir"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=A855F7" /></a>
 
-<a href="https://github.com/ShahhNasir">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</p>
-
-<img src="https://komarev.com/ghpvc/?username=ShahhNasir&label=Profile+Views&color=0e75b6&style=for-the-badge"/>
+<sub>Hyderabad, India</sub>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" height="6"/>
 
-# 🚀 About Me
+### About
 
-```python
-class NasirHussain:
+I design and build production-grade AI systems — not notebooks, not demos. My work sits at the intersection of large language models, agentic architectures, retrieval infrastructure, and the backend/cloud engineering required to make all of it reliable at scale.
 
-    role = "Applied AI Engineer"
+I'd rather ship one system deep enough to survive contact with production than fifty projects that don't.
 
-    passions = [
-        "Large Language Models",
-        "AI Agents",
-        "Machine Learning",
-        "Retrieval-Augmented Generation",
-        "AI Infrastructure",
-        "Distributed Systems",
-        "Cloud Native Applications"
-    ]
+<table>
+<tr><td><b>Role</b></td><td>Applied AI Engineer · ML Engineer · LLM Engineer</td></tr>
+<tr><td><b>Focus</b></td><td>Agentic systems, RAG infrastructure, AI platform engineering</td></tr>
+<tr><td><b>Based in</b></td><td>Hyderabad, India</td></tr>
+<tr><td><b>Currently building</b></td><td><a href="#ai-os">AI OS</a></td></tr>
+</table>
 
-    current_focus = [
-        "Production AI Systems",
-        "AI Platform Engineering",
-        "Scalable AI Architecture"
-    ]
+<img src="assets/divider.svg" width="100%" height="6"/>
 
-    motto = "Build intelligent systems that create real-world impact."
-```
-
----
-
-# 🌟 Mission
-
-I enjoy designing and building production-ready AI systems that combine modern machine learning with scalable software engineering.
-
-My focus goes beyond training models—I enjoy building complete AI products that include backend services, APIs, AI agents, retrieval systems, deployment pipelines, cloud infrastructure, monitoring, and production architecture.
-
----
-
-# 🚀 Currently Building
+### Mission
 
 <div align="center">
 
-# 🧠 AI OS
-
-### A Complete Operating System for Artificial Intelligence
-
-*"One flagship project. One production-grade ecosystem."*
+> Build intelligent systems that solve real-world problems.
 
 </div>
 
----
+The goal isn't a bigger model — it's a system that reasons, retrieves, remembers, and holds up under real traffic, real failure modes, and real users.
 
-## 💡 Vision
+<img src="assets/divider.svg" width="100%" height="6"/>
 
-AI OS is an ambitious end-to-end AI platform designed to demonstrate how modern production AI applications are engineered.
+<h3 id="ai-os">AI OS</h3>
 
-Rather than creating many disconnected demo projects, AI OS brings together the core components of Applied AI into one unified ecosystem—from LLM orchestration and AI agents to retrieval systems, backend services, cloud infrastructure, MLOps, observability, and deployment.
+<div align="center">
+<img src="assets/ai-os-card.svg" width="100%"/>
+</div>
 
-The objective is to build a platform that reflects the engineering practices used in production AI environments.
+**AI OS** is an end-to-end applied AI platform — a single, unified system rather than a portfolio of disconnected demos. It brings together every layer a real AI product needs to run in production:
 
----
+| Layer | What it covers |
+|---|---|
+| **Reasoning** | Large language models, multi-agent orchestration, tool use |
+| **Knowledge** | Retrieval-augmented generation, embeddings, vector search, memory |
+| **Platform** | FastAPI services, async workflows, event streaming |
+| **Infrastructure** | Docker, Kubernetes, cloud-native deployment |
+| **Operations** | Evaluation harnesses, monitoring, observability, AI security |
 
-## 🏗 High-Level Architecture
+<img src="assets/divider.svg" width="100%" height="6"/>
 
-```text
-                    AI OS
-
-           ┌──────────────────────┐
-           │   Web Dashboard       │
-           └──────────┬────────────┘
-                      │
-              FastAPI Backend
-                      │
-      ┌───────────────┼────────────────┐
-      │               │                │
-      ▼               ▼                ▼
-
- AI Agent Hub     LLM Engine      RAG Engine
-
-      │               │                │
-
-      └──────────┬────┴───────────────┘
-                 ▼
-
-      PostgreSQL + Vector Database
-
-                 ▼
-
- Monitoring • Evaluation • MLOps
-```
-
----
-
-# ⚡ AI OS Modules
-
-- 🤖 AI Agent Framework
-- 🧠 Large Language Models
-- 📚 Retrieval-Augmented Generation
-- 💬 Conversational AI
-- 📄 Enterprise Document Intelligence
-- 🔍 Semantic Search
-- 📊 AI Analytics Dashboard
-- ⚡ FastAPI Backend
-- 📦 REST APIs
-- 🔄 Async Workflows
-- 🐳 Docker
-- ☸ Kubernetes
-- ☁ Cloud Deployment
-- 📈 Monitoring & Observability
-- 🔐 AI Security & Guardrails
-- ⚙ Workflow Automation
-- 📉 Evaluation Framework
-- 🚀 CI/CD Pipeline
-
----
-
-# 🛠 Tech Stack
-
-## 💻 Languages
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,cpp,js,bash"/>
-
-</p>
-
----
-
-## 🤖 Artificial Intelligence
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow"/>
-
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/LlamaIndex-7B61FF?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Ollama-111827?style=for-the-badge"/>
-
-</p>
-
----
-
-## ⚙ Backend Engineering
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs"/>
-
-</p>
-
----
-
-## 🗄 Databases
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis"/>
-
-<img src="https://img.shields.io/badge/FAISS-blue?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/ChromaDB-purple?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Qdrant-red?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Pinecone-green?style=for-the-badge"/>
-
-</p>
-
----
-
-## ☁ Cloud & DevOps
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,docker,kubernetes,linux,git,githubactions"/>
-
-</p>
-
----
-
-## 📊 Machine Learning & Data
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge"/>
-
-</p>
-
----
-
-# 🎯 Areas of Interest
-
-- Applied Artificial Intelligence
-- LLM Engineering
-- AI Agents
-- Agentic AI
-- Retrieval-Augmented Generation
-- Machine Learning
-- Deep Learning
-- NLP
-- AI Infrastructure
-- Distributed Systems
-- MLOps
-- Cloud Native AI
-- AI Evaluation
-- Prompt Engineering
-- AI Security
-
----
-
-# 📈 GitHub Analytics
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ShahhNasir&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahhNasir&layout=compact&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ShahhNasir&theme=tokyonight"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=ShahhNasir&theme=tokyonight&row=1&column=6"/>
-
-</p>
-
----
-
-# 🎯 2026 Goals
-
-- 🚀 Build AI OS into a production-grade AI platform
-- 🤖 Explore advanced AI agent architectures
-- 🧠 Master LLM engineering and inference optimization
-- ☁ Deploy scalable cloud-native AI systems
-- 📚 Share knowledge through open-source projects
-- 🌍 Contribute to the AI engineering community
-
----
-
-# 🌐 Connect With Me
-
-<p align="center">
-
-<a href="mailto:nasirhussainshah174@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
-<a href="https://www.linkedin.com/in/nasir-hussain-8b74673a0">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="https://github.com/ShahhNasir">
-<img src="https://skillicons.dev/icons?i=github"/>
-</a>
-
-</p>
-
----
+### Architecture
 
 <div align="center">
 
-## 💭 Philosophy
-
-> **"Great AI engineers don't just train models—they build reliable, scalable, and intelligent systems that solve real-world problems."**
-
-⭐ If you find my work interesting, consider starring my repositories.
-
-**Thanks for visiting! Happy Coding 🚀**
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:06b6d4,50:2563eb,100:0f172a&section=footer"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/architecture.svg">
+  <img src="assets/architecture.svg" width="100%" alt="AI OS system architecture"/>
+</picture>
 
 </div>
-````
+
+Requests flow from the client through a FastAPI gateway into the **AI Agent Hub**, which orchestrates a Planner, Coder, and Research agent against a shared memory and RAG layer backed by a vector database. Postgres, Redis, and Kafka handle state, caching, and event streaming; every request is measured through evaluation and monitoring before the whole system ships on Docker + Kubernetes.
+
+<img src="assets/divider.svg" width="100%" height="6"/>
+
+### Tech Stack
+
+**Languages**
+
+<p align="left"><img src="https://skillicons.dev/icons?i=python,cpp,js,bash&theme=dark"/></p>
+
+**AI / ML**
+
+<p align="left"><img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark"/>&nbsp;
+<img src="https://img.shields.io/badge/LangChain-1C1C1C?style=flat-square&logoColor=22D3EE"/>
+<img src="https://img.shields.io/badge/LangGraph-1C1C1C?style=flat-square&logoColor=22D3EE"/>
+<img src="https://img.shields.io/badge/LlamaIndex-1C1C1C?style=flat-square&logoColor=8B5CF6"/>
+<img src="https://img.shields.io/badge/Hugging%20Face-1C1C1C?style=flat-square&logoColor=A855F7"/>
+<img src="https://img.shields.io/badge/OpenAI%20API-1C1C1C?style=flat-square&logoColor=3B82F6"/></p>
+
+**Backend & Platform**
+
+<p align="left"><img src="https://skillicons.dev/icons?i=fastapi,nodejs,graphql&theme=dark"/></p>
+
+**Data & Retrieval**
+
+<p align="left"><img src="https://skillicons.dev/icons?i=postgres,redis,kafka&theme=dark"/>&nbsp;
+<img src="https://img.shields.io/badge/FAISS-1C1C1C?style=flat-square&logoColor=22D3EE"/>
+<img src="https://img.shields.io/badge/Qdrant-1C1C1C?style=flat-square&logoColor=3B82F6"/>
+<img src="https://img.shields.io/badge/pgvector-1C1C1C?style=flat-square&logoColor=A855F7"/></p>
+
+**Cloud & Infrastructure**
+
+<p align="left"><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,githubactions,linux&theme=dark"/></p>
+
+<img src="assets/divider.svg" width="100%" height="6"/>
+
+### Currently Learning
+
+- Multi-agent orchestration patterns and inter-agent memory sharing
+- LLM inference optimization and self-hosted model serving
+- Evaluation-driven development for non-deterministic systems
+- Distributed event-driven architectures with Kafka
+
+<img src="assets/divider.svg" width="100%" height="6"/>
+
+### Roadmap
+
+<div align="center">
+<img src="assets/roadmap.svg" width="100%"/>
+</div>
+
+<img src="assets/divider.svg" width="100%" height="6"/>
+
+### Featured Technologies
+
+<div align="center">
+
+`FastAPI` · `LangGraph` · `RAG` · `Vector Search` · `PostgreSQL` · `Redis` · `Kafka` · `Docker` · `Kubernetes`
+
+</div>
+
+<img src="assets/divider.svg" width="100%" height="6"/>
+
+### GitHub Analytics
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ShahhNasir&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0B1120&title_color=67E8F9&icon_color=A855F7&text_color=CBD5E1"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShahhNasir&layout=compact&hide_border=true&theme=tokyonight&bg_color=0B1120&title_color=67E8F9&text_color=CBD5E1"/>
+
+<img src="https://streak-stats.demolab.com/?user=ShahhNasir&hide_border=true&theme=tokyonight&background=0B1120&ring=22D3EE&fire=A855F7&currStreakLabel=67E8F9"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=ShahhNasir&theme=nord&no-frame=true&row=1&column=6&margin-w=8"/>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ShahhNasir&theme=react-dark&bg_color=0B1120&color=67E8F9&line=3B82F6&point=A855F7&hide_border=true"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShahhNasir/ShahhNasir/output/assets/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShahhNasir/ShahhNasir/output/assets/snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/ShahhNasir/ShahhNasir/output/assets/snake.svg" width="100%"/>
+</picture>
+
+<sub>Snake renders after <code>.github/workflows/snake.yml</code> runs once on the default branch.</sub>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" height="6"/>
+
+### Contact
+
+<div align="center">
+
+<a href="mailto:nasirhussainshah174@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark"/></a>
+<a href="https://www.linkedin.com/in/nasir-hussain-8b74673a0"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark"/></a>
+<a href="https://github.com/ShahhNasir"><img src="https://skillicons.dev/icons?i=github&theme=dark"/></a>
+
+</div>
+
+<img src="assets/divider.svg" width="100%" height="6"/>
+
+<div align="center">
+
+### Philosophy
+
+> Great AI engineers don't just train models — they build reliable, scalable, intelligent systems that hold up in the real world.
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:06B6D4,50:2563EB,100:0B1120&section=footer" width="100%"/>
+
+<sub>© 2026 Nasir Hussain — built and maintained as part of AI OS</sub>
+
+</div>
