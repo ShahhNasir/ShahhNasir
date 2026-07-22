@@ -13,7 +13,7 @@
 <br/>
 
 <a href="mailto:nasir.hussain.aiml@gmail.com"><img src="https://img.shields.io/badge/Email-0B1120?style=for-the-badge&logo=gmail&logoColor=22D3EE" /></a>
-<a href="https://www.linkedin.com/in/nasir-hussain"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=3B82F6" /></a>
+<a href="https://www.linkedin.com/in"><img src="https://img.shields.io/badge/LinkedIn-0B1120?style=for-the-badge&logo=linkedin&logoColor=3B82F6" /></a>
 <a href="https://github.com/ShahhNasir"><img src="https://img.shields.io/badge/GitHub-0B1120?style=for-the-badge&logo=github&logoColor=A855F7" /></a>
 
 <sub>Hyderabad, India</sub>
